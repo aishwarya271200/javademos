@@ -1,5 +1,5 @@
 
-public class variables {
+public class e2variables {
 
 	public static void main(String[] args) {
 		int myint = 5;

@@ -1,5 +1,5 @@
 
-public class primitivetypes {
+public class e3primitivetypes {
 
 	public static void main(String[] args) {
 		
