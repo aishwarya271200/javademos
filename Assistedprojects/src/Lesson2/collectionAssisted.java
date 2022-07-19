@@ -1,54 +1,42 @@
 package Lesson2;
 
+
 import java.util.*;
 
-public class collectionAssisted {
-
-	public static void main(String[] args) {
+ class collectionAssisted {
+	
+	public static void main(String[] args)
+	{
 		//creating arraylist
 		System.out.println("ArrayList");
-		ArrayList<String> city=new ArrayList<String>();   
-	      city.add("Bangalore");//
-	      city.add("Delhi");    	   
-	      System.out.println(city);  
+		ArrayList<String> name=new ArrayList<String>();   
+	      name.add("Aishu");//
+	      name.add("Priya");    	   
+	      System.out.println(name);  
 		
-		//creating vector
-	      System.out.println("\n");
-	      System.out.println("Vector");
-	      Vector<Integer> vec = new Vector();
-	      vec.addElement(15); 
-	      vec.addElement(30); 
-	      System.out.println(vec);
 		
-		//creating linkedlist
-	      System.out.println("\n");
-	      System.out.println("LinkedList");
-	      LinkedList<String> names=new LinkedList<String>();  
-	      names.add("Alex");  
-	      names.add("John");  	      
-	      Iterator<String> itr=names.iterator();  
-	      while(itr.hasNext()){  
-	       System.out.println(itr.next());  
-	       
-	       //creating hashset
-	       System.out.println("\n");
-	       System.out.println("HashSet");
-	       HashSet<Integer> set=new HashSet<Integer>();  
-	       set.add(101);  
-	       set.add(103);  
-	       set.add(102);
-	       set.add(104);
-	       System.out.println(set);
-	       
-	       //creating linkedhashset
-	       System.out.println("\n");
-	       System.out.println("LinkedHashSet");
-	       LinkedHashSet<Integer> set2=new LinkedHashSet<Integer>();  
-	       set2.add(11);  
-	       set2.add(13);  
-	       set2.add(12);
-	       set2.add(14);	       
-	       System.out.println(set2);
-	      	} 
-	      }  
+			//creating linkedlist
+		      System.out.println("\n");
+		      System.out.println("LinkedList\n");
+		      LinkedList<String> names=new LinkedList<String>();  
+		      names.add("first");  
+		      names.add("second");
+		      names.add("third");
+		      Iterator<String> itr=names.iterator();  
+		      while(itr.hasNext()){  
+		       System.out.println(itr.next());  
+		      }
+		       //creating hashset
+		       System.out.println("\n");
+		       System.out.println("HashSet");
+		       HashSet<Integer> set=new HashSet<Integer>();  
+		       set.add(1);  
+		       set.add(3);  
+		       set.add(2);
+		       set.add(4);
+		       System.out.println(set);
+
+
 	}
+ }
+	
